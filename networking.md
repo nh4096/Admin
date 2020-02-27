@@ -1,0 +1,21 @@
+
+Protocol Data Units (PDU)
+
+| Layer | Protocol | PDU |
+|---|---|---|
+| transport | TCP | segment |
+| transport | UDP | datagram |
+| internet | IP | packet |
+| link | | frame |
+
+### Public DNS
+
+| Provider | DNS1 | DNS2 |
+|---|---|---|
+| 腾讯 | 119.29.29.29 | |
+| 腾讯云 | 183.60.83.19 | 183.60.82.98 |
+| Yandex Basic | 77.88.8.8 | 77.88.8.1 |
+| Yandex Safe | 77.88.8.88 | 77.88.8.2 |
+| Yandex Family | 77.88.8.7 | 77.88.8.3 |
+| Freenom world | 80.80.80.80 | 80.80.81.81 |
+| Google | 8.8.8.8 | 8.8.4.4 |
