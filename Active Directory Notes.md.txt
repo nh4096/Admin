@@ -1,0 +1,7 @@
+PS C:\> get-aduser -Filter 'enabled -eq "true"' | ft name,distinguishedname,userprincipalname -AutoSize
+
+name          distinguishedname                            userprincipalname
+----          -----------------                            -----------------
+Administrator CN=Administrator,CN=Users,DC=oasis,DC=laptop
+Cow           CN=Cow,CN=Users,DC=oasis,DC=laptop           cow@oasis.laptop
+Camel         CN=Camel,CN=Users,DC=oasis,DC=laptop         camel@oasis.laptop
